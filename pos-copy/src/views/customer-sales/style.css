@@ -1,0 +1,240 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar:horizontal{
+    width: 8px;
+}
+::-webkit-scrollbar-button{
+    width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgb(58, 58, 58);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #424242;
+    border-radius: 10px;
+}
+
+.btn-delete-order{
+    position: absolute;
+}
+
+.btn-item{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 1px;
+    font-size: 10px !important;
+    color: rgb(119, 119, 119);
+}
+
+.btn-header{
+    position: absolute;
+    right: 60px;
+}
+
+.btn-item-text{
+    font-size: 9px !important;
+    color: rgb(202, 202, 202) !important;
+}
+
+.btn-item:hover{
+    color: white !important;
+}
+
+.btn-item-price{
+    color: rgb(202, 202, 202) !important;
+    position: relative;
+    bottom: 15%;
+    margin: 0;
+    padding: 0;
+    text-align: center !important;
+}
+
+.btnXS{
+    padding-top: 4px!important;
+    padding-bottom: 4px!important;
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+}
+
+.btnXSS{
+    position: absolute;
+    right: -35px;
+    bottom: -9px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    padding-right: 7px!important;
+    padding-left: 7px!important;
+}
+
+.priceXSS{
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+
+.cantPriceXSS{
+    position: relative;
+    top: 5px;
+}
+
+.btn-document-type{
+    height: 60px;
+    width: 60px;
+    font-size: 12px;
+    padding: 0%;
+    margin: 0% !important;
+    border-radius: 10px;
+}
+
+.no-paddin{
+    padding: 0% !important;
+}
+
+.no-margin{
+    margin: 0% !important;
+}
+
+.btn-payment-method-detail{
+    height: 50px !important;
+    width: 50px !important;
+    font-size: 14px;
+    padding: 0%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+
+.btn-payment-method{
+    height: 80px !important;
+    width: 80px !important;
+    font-size: 14px;
+    border-radius: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0% !important;
+}
+
+.btn-payment-method-text{
+    padding: 5px;
+}
+
+
+.buttonCategories{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    white-space: normal;
+}
+
+.buttonChannels{
+    width: 105px;
+    height: 25px;
+    padding: 5px;
+    whiteSpace: nowrap;
+    whiteSpace: nowrap;
+    textOverflow: ellipsis;
+    overflow: hidden;
+}
+
+.global-list-item-overflow{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.list-item-overflow{
+    height: auto;
+}
+
+.btn-modifier{
+    border-radius: 10px !important;
+    height: 100px !important;
+}
+
+.btn-modifier:hover{
+    color: white !important;
+}
+
+.text-modifier{
+    font-size: 10px !important;
+}
+
+.modal {
+    top: '35%';
+    left: '50%';
+    right: 'auto';
+    bottom: 'auto';
+    marginRight: '-50%';
+    width: '60%' !important;
+    transform: 'translate(-40%, -10%)';
+}
+
+.stiky-topnavbar{
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    z-index:1;
+    background-color: #1a1b18;
+}
+.pill-discount{
+    position: absolute !important;
+    top: -5px !important;
+    right: -5px;
+    padding: 5px;
+    border-radius: 50px;
+    /* margin: 0px; */
+}
+.stiky-topnavbar-2{
+    position: fixed;
+    top: 70px;
+    /* width: 100%; */
+    z-index:10;
+    background-color: #1a1b18;
+}
+
+.after-stiky-topnavbar{
+    position: relative;
+    top: 95px;
+}
+
+.button-selected{
+    /* opacity: 0.5 !important; */
+    padding: 10px;
+    margin: 10px;
+    border: solid 3px rgb(63, 92, 53);
+}
+
+.button-no-selected{
+    opacity: 0.7 !important;
+}
+
+.text-cart-shop{
+    font-size: 11px !important;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+    /* For mobile phones: */
+    .btn-item{
+        height: 90px !important;
+        width: 90px !important;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 900px) {
+    /* For mobile phones: */
+    .btn-item{
+        height: 90px !important;
+        width: 90px !important;
+        border-radius: 10px;
+    }
+}
+

@@ -1,0 +1,376 @@
+{
+  "categories": [
+    {
+      "id": "CAT-00001",
+      "name": "Bebida",
+      "description": "Es para tomar bebida",
+      "status": true,
+      "collapse": false
+    },
+    {
+      "id": "CAT-00002",
+      "name": "Entrada nueva",
+      "description": "Categoria de comida que se sirve de entrada nueva",
+      "status": true,
+      "collapse": false,
+      "newStatus": false
+    },
+    {
+      "id": "CAT-00003",
+      "name": "Postre",
+      "status": true,
+      "description": "Categoria de comida que se sirve de postre",
+      "collapse": false
+    },
+    {
+      "name": "Categoría nueva",
+      "description": "Descripción",
+      "status": true,
+      "collapse": true,
+      "id": "TLKDZo5"
+    },
+    {
+      "name": "rtyuyt",
+      "description": "ryturyut ",
+      "status": true,
+      "collapse": false,
+      "id": "t47bnij"
+    },
+    {
+      "name": "fghfhg",
+      "description": "fghfghf",
+      "status": true,
+      "collapse": true,
+      "id": "jBniE24"
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "SBC-00001",
+      "name": "Jugo modificado",
+      "description": "Variedad de jugos de frutas",
+      "categoryID": "CAT-00001",
+      "status": true,
+      "categoryName": "Bebida",
+      "collapse": false
+    },
+    {
+      "id": "SBC-00002",
+      "name": "Soda",
+      "description": "Soda sabor cola",
+      "categoryID": "CAT-00001",
+      "status": true,
+      "categoryName": "Bebida",
+      "collapse": false
+    },
+    {
+      "id": "SBC-00003",
+      "name": "Pastel",
+      "description": "Pastel de chocolate hecho con amor",
+      "categoryID": "CAT-00003",
+      "status": true,
+      "categoryName": "Postre"
+    },
+    {
+      "id": "SBC-00004",
+      "name": "Nachos",
+      "description": "Entrada de nachos de la casa",
+      "categoryID": "CAT-00002",
+      "status": true,
+      "categoryName": "Entrada nueva"
+    },
+    {
+      "name": "Pie de higo",
+      "description": "Pie hecho de higo",
+      "categoryID": "CAT-00003",
+      "status": true,
+      "categoryName": "Postre",
+      "collapse": true,
+      "id": "1y0txKI"
+    },
+    {
+      "name": "Pastel de higo",
+      "description": "Pastel de higo",
+      "categoryID": "CAT-00003",
+      "status": true,
+      "categoryName": "Postre",
+      "collapse": true,
+      "id": "qUaSIyi"
+    },
+    {
+      "name": "Frozen de coco",
+      "description": "Frozen de coco refrescante y listo siempre",
+      "categoryID": "CAT-00001",
+      "status": true,
+      "categoryName": "Bebida",
+      "collapse": false,
+      "id": "NxF5o5S"
+    }
+  ],
+  "channels": [
+    {
+      "id": "CHA-00001",
+      "name": "Delivery",
+      "description": "El cliente comera en su hogar",
+      "status": true,
+      "collapse": false
+    },
+    {
+      "id": "QxQb-Uh",
+      "name": "Comer Aca",
+      "description": "El cliente comera en el local",
+      "status": true,
+      "collapse": false
+    },
+    {
+      "id": "ASmYRtb",
+      "name": "Para llevar",
+      "description": "El cliente se llevara sus compras",
+      "status": true,
+      "channelID": "CHA-00001",
+      "channelName": "Delivery",
+      "collapse": false
+    },
+    {
+      "id": "wnYWSaX",
+      "name": "",
+      "description": "",
+      "status": false,
+      "collapse": false
+    }
+  ],
+  "subchannels": [
+    {
+      "id": "SCH-0001",
+      "name": "Hugo App",
+      "description": "Es una app delivery en el salvador",
+      "status": true,
+      "channelID": "CHA0001",
+      "channelName": "Delivery",
+      "collapse": false
+    },
+    {
+      "id": "Id1ngDX",
+      "name": "Pedidos Ya",
+      "description": "Aplicación de delivery llamada pedidos Ya",
+      "status": true,
+      "channelID": "CHA-00001",
+      "channelName": "Delivery",
+      "collapse": false
+    },
+    {
+      "id": "9JJDy4y",
+      "name": "Uber Eats",
+      "description": "Es una app de delivery llamada Uber Eats",
+      "status": true,
+      "channelID": "CHA-00001",
+      "channelName": "Delivery",
+      "collapse": false
+    }
+  ],
+  "payment-methods": [
+    {
+      "id": "PAM-0001",
+      "name": "Efectivo",
+      "description": "Es dinero en efectivo",
+      "status": true,
+      "collapse": false
+    },
+    {
+      "id": "SnYRh1q",
+      "name": "Tarjeta",
+      "description": "El pago es realizada por una tarjeta de credito o debito",
+      "status": true,
+      "collapse": false
+    }
+  ],
+  "payment-method-details": [
+    {
+      "id": "PMD-0001",
+      "name": "Tarjeta credito america central",
+      "description": "Es una tarjeta de credito especifica",
+      "status": true,
+      "paymentMethodID": "SnYRh1q",
+      "paymentMethodName": "Tarjeta",
+      "collapse": false
+    },
+    {
+      "name": "Modificaciòn",
+      "description": "dgfdfghdfgh",
+      "paymentMethodID": "SnYRh1q",
+      "status": true,
+      "paymentMethodName": "Tarjeta",
+      "collapse": false,
+      "id": "Ua-qvKf"
+    },
+    {
+      "name": "",
+      "description": "",
+      "paymentMethodID": "",
+      "status": true,
+      "paymentMethodName": "",
+      "collapse": true,
+      "id": "Dmt9ine"
+    }
+  ],
+  "users": [
+    {
+      "id": "USR-0001",
+      "name": "Osmaro Alfonso Bonilla",
+      "user": "OsmaroBonilla",
+      "email": "desarrollo@inventa.com.sv",
+      "password": "123456",
+      "status": true,
+      "collapse": false
+    },
+    {
+      "name": "Kevin Galdamez",
+      "user": "KevinG",
+      "email": "kevin.galdamez.argos@gmail.com",
+      "status": true,
+      "password": "123456",
+      "collapse": false,
+      "id": "PFMOhmp"
+    },
+    {
+      "name": "Benjamin Iraheta",
+      "user": "BenjaminIraheta",
+      "email": "benjamin.iraheta@gmail.com",
+      "status": true,
+      "password": "123456",
+      "collapse": false,
+      "id": "YRPhP1A"
+    },
+    {
+      "name": "Karen Vanessa",
+      "user": "KarenV",
+      "email": "karen@gm",
+      "status": true,
+      "password": "123456",
+      "collapse": false,
+      "id": "j1KWd2Z"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "USR-0001",
+      "name": "Subway Metropolis",
+      "address": "Centro comercial metropolis",
+      "brandID": "1",
+      "brandName": "Subway",
+      "status": true,
+      "collapse": false
+    },
+    {
+      "name": "Humo Constitución",
+      "address": "Constitucion",
+      "brandName": "Humo",
+      "status": true,
+      "collapse": false,
+      "id": "Euh4WVq"
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Subway",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Humo",
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Viva Express",
+      "status": true
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUS-000001",
+      "name": "Osmaro Alfonso",
+      "dui": "05908844-5",
+      "address": "Res la gloria",
+      "tel": "77752577",
+      "email": "osmaro.bonilla.slysof@gmail.com",
+      "status": true,
+      "collapse": false
+    },
+    {
+      "name": "Intento modificado",
+      "dui": "4567879-4",
+      "address": "Dirección de mi casa",
+      "tel": "77752455",
+      "email": "osma204illa@gmail.com",
+      "status": true,
+      "collapse": false,
+      "id": "YnSMxJs"
+    }
+  ],
+  "discounts": [
+    {
+      "id": "DIS-0001",
+      "name": "Descuento 20%",
+      "type": 0,
+      "quantity": "20%",
+      "status": true,
+      "restaurantID": "1",
+      "restaurantName": "Subway"
+    }
+  ],
+  "giftcards": [
+    {
+      "id": "GIF-0001",
+      "name": "Gifcard 200 USD",
+      "totalBalance": 200,
+      "currentBalance": 200,
+      "status": true,
+      "customerID": "CUS-000001",
+      "customerName": "Osmaro Alfonso",
+      "restaurantID": "1",
+      "restaurantName": "Subway",
+      "collapse": false
+    },
+    {
+      "mask": "",
+      "name": "Giftcard $900 Modificada",
+      "totalBalance": "900",
+      "currentBalance": "100",
+      "customerID": "CUS-000001",
+      "customerName": "Osmaro Alfonso",
+      "status": true,
+      "collapse": false,
+      "restaurantID": "2",
+      "restaurantName": "Humo",
+      "id": "SHys-Jj"
+    },
+    {
+      "mask": "",
+      "name": "Elemento",
+      "totalBalance": "67",
+      "currentBalance": "67",
+      "customerID": "YnSMxJs",
+      "customerName": "Intento modificado",
+      "status": true,
+      "collapse": false,
+      "restaurantID": "3",
+      "restaurantName": "Viva Express",
+      "id": "Xfbd-IR"
+    },
+    {
+      "mask": "",
+      "name": "Giftcard de veinte",
+      "totalBalance": "20",
+      "currentBalance": "20",
+      "customerID": "YnSMxJs",
+      "customerName": "Intento modificado",
+      "restaurantID": "1",
+      "restaurantName": "Subway",
+      "status": true,
+      "collapse": false,
+      "id": "s_IxNMH"
+    }
+  ]
+}

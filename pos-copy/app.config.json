@@ -1,0 +1,9 @@
+{
+    "apps" : [
+      {
+        "name": "react-app",
+        "script": "pm2 serve build 3000 --spa",
+        "interpreter": "none"
+      }
+    ]
+  }

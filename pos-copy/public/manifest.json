@@ -1,0 +1,15 @@
+{
+  "short_name": "Subway POS",
+  "name": "Subway POS",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
